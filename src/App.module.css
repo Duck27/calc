@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  --bg-white-color: rgb(30, 40, 60);
+  --bg-black-color: rgb(30, 40, 60);
+  --side-black--main-color: rgb(15, 25, 35);
+  --side--black--add--color: rgb(255, 255, 255);
+  --calc--black--main: rgb(55, 65, 90);
+  --calc--black--add: rgb(55, 65, 90);
+  --calc--black--hover: rgb(110, 100, 255);
+  font-family: "Roboto", sans-serif !important;
+}
+
+.background {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--bg-black-color);
+  font-size: 20px;
+}
